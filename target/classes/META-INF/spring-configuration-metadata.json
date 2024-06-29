@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.achrafmoullablad.config.RsaKeysConfig",
+      "sourceType": "com.achrafmoullablad.config.RsaKeysConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.achrafmoullablad.config.RsaKeysConfig"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.achrafmoullablad.config.RsaKeysConfig"
+    }
+  ],
+  "hints": []
+}
